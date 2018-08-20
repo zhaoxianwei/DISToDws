@@ -21,7 +21,7 @@ object DisToObs {
 
     val (endpoint, region, ak, sk, projectId, streamName, startingOffsets, duration)
         = ("https://dis.cn-north-1.myhwclouds.com:20004", "cn-north-1",
-      "9E4YAAKGMSERKEEUDXCH", "yq6jTN2HfDdOnvMRaaINF81SiCmpfReeF3a9A6PV", "769b7a1e32ea43b3ab8362070556d81c",
+      "XXX", "XXX", "769b7a1e32ea43b3ab8362070556d81c",
       "dis-veolia2", "LATEST", "10")
 
 

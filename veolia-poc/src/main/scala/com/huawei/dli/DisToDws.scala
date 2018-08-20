@@ -22,11 +22,11 @@ object DisToDws {
     //
     val (endpoint, region, ak, sk, projectId, streamName, startingOffsets, duration)
     = ("https://dis.cn-north-1.myhwclouds.com:20004", "cn-north-1",
-      "9E4YAAKGMSERKEEUDXCH", "yq6jTN2HfDdOnvMRaaINF81SiCmpfReeF3a9A6PV", "769b7a1e32ea43b3ab8362070556d81c",
+      "XXX", "XXX", "769b7a1e32ea43b3ab8362070556d81c",
       "dis-veolia", "LATEST", "10")
 
     val (dwsurl, username, dwspassword, driver) = ("jdbc:postgresql://veolia-dws.dws.myhuaweiclouds.com:8000/postgres",
-      "dbadmin", "-rq82019", "org.postgresql.Driver")
+      "dbadmin", "XXX", "org.postgresql.Driver")
 
 
     val ssc = new StreamingContext(sparkConf, Seconds(duration.toInt))
